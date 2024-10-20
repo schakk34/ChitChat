@@ -5,8 +5,10 @@
     "paths": {
       "@/*": [
         "./*"
-      ]
-    }
+      ],
+    },
+    "types": ["react", "react-native", "react-native-vector-icons"], // Added this line
+    "skipLibCheck": true // Added this line
   },
   "include": [
     "**/*.ts",
